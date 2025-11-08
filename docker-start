@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source /usr/lib/frr/frrcommon.sh
+/usr/sbin/lldpd
+/usr/lib/frr/watchfrr $(daemon_list)
